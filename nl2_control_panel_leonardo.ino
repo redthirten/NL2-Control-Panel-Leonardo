@@ -1,14 +1,14 @@
 /**
-	NoLimits 2 (NL2) Physical Control Panel Emulator
-	David Wolfe
-	11/23/2024
+    NoLimits 2 (NL2) Physical Control Panel Emulator
+    David Wolfe
+    11/23/2024
     For use on Arduino Leonardo only.
-	Reads the states of the operators wired to specific pins, controls indicator lamps,
+    Reads the states of the operators wired to specific pins, controls indicator lamps,
         and emulates keyboard presses to mimic input to NL2 simulation.
     Operators: 
         Key Switch, Floor Button, Reset Button, E-Stop Button (Toggle)
         Dispatch Button (Left), Restraints Switch, Gates Switch, Dispatch Button (Right)
-	Licensed under GNU GPLv3 - See LICENSE for more details.
+    Licensed under GNU GPLv3 - See LICENSE for more details.
 */
 
 #include <Keyboard.h>;
